@@ -15,6 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "dotenv": "^16.4.7",
     "pocketbase": "^0.25.1",
     "puppeteer": "^24.2.0",
     "radashi": "^12.3.0"
