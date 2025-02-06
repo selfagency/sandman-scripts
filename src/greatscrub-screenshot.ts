@@ -2,7 +2,7 @@ import puppeteer from 'puppeteer';
 import { isEmpty } from 'radashi';
 
 import { log, payload } from './common';
-import db from './db';
+import db from './greatscrub-pocketbase';
 
 async function main() {
   try {

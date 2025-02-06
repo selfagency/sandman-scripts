@@ -1,6 +1,6 @@
 import PocketBase from 'pocketbase';
 
-import type { TypedPocketBase } from './pb.d.ts';
+import type { TypedPocketBase } from './greatscrub.js';
 
 const db = new PocketBase(process.env.PB_HOST as string) as TypedPocketBase;
 db.autoCancellation(false);
