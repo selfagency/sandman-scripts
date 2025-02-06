@@ -45,7 +45,6 @@
       "esm"
     ],
     "minify": true,
-    "outDir": "scripts",
     "sourcemap": "inline",
     "splitting": false
   },

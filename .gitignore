@@ -251,5 +251,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/linux,windows,macos,visualstudiocode,node,git
 
 config.toml
-scripts/
 common.js
