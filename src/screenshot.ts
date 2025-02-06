@@ -26,7 +26,7 @@ async function main() {
 
 async function takeScreenshot(url: string): Promise<Uint8Array<ArrayBufferLike> | undefined> {
   const browser = await puppeteer.launch({
-    args: ['--disable-web-security', '--allow-running-insecure-content'],
+    args: ['--disable-web-security', '--allow-running-insecure-content', '--no-sandbox'],
     headless: true,
   });
 
