@@ -15,7 +15,7 @@ async function main() {
       if (shot) {
         log.info('Screenshot taken:', payload.url as string);
         const record = await db.collection('screenshots').create({
-          screenshot: new File([shot], payload.filename as string),
+          screenshot: new File([shot], `${payload.filename as string}.png`),
         });
         log.info('Screenshot uploaded:', record);
       }
