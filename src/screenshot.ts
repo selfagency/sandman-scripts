@@ -1,6 +1,5 @@
 import puppeteer from 'puppeteer';
 import { isEmpty } from 'radashi';
-import 'dotenv/config';
 
 import { log, payload } from './common';
 import db from './db';
