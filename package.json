@@ -18,7 +18,7 @@
     "node-gyp": "^11.0.0",
     "pocketbase": "^0.25.1",
     "puppeteer": "^24.2.0",
-    "radashi": "^12.3.0"
+    "radashi": "^12.5.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
